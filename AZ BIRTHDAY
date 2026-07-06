@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avier Zacheus' 1st Birthday</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="welcome">
+
+    <h1>🦕 ROAR! 🦖</h1>
+
+    <p>You're invited to a Dino-Mite Adventure!</p>
+
+    <button onclick="openInvite()" class="openBtn">
+        🎈 Open Invitation 🎈
+    </button>
+
+</div>
+
+<div id="invitation" class="card">
+
+    <div class="header">
+
+        <h1>🦖 Avier Zacheus 🦖</h1>
+
+        <h2>is Turning ONE!</h2>
+
+    </div>
+
+    <div class="photo">
+
+        <!-- Replace avier.jpg with your son's picture -->
+        <img src="Image/az2.png" alt="Avier Zacheus">
+
+    </div>
+
+    <div class="message">
+
+        Join us for a prehistoric adventure as we celebrate our little dinosaur's
+        <strong>1st Birthday!</strong>
+
+        <br><br>
+
+        There will be delicious food,
+        lots of fun, and unforgettable memories!
+
+    </div>
+
+    <div class="details">
+
+        <h3>Party Details</h3>
+
+        <p>📅 Date: July 8, 2026</p>
+
+        <p>🕒 Time: 3:00 PM</p>
+
+        <p>📍 Venue: San Agustin Sur Arayat Pampanga Purok 3</p>
+
+        <p>🦕 Theme: Dinosaur Adventure</p>
+
+    </div>
+
+    <div class="footer">
+
+        💚 We can't wait to celebrate with you! 💚
+
+    </div>
+
+</div>
+
+<script>
+
+function openInvite(){
+
+document.querySelector(".welcome").style.display="none";
+
+document.getElementById("invitation").style.display="block";
+
+}
+
+</script>
+
+</body>
+
+
+</html>
